@@ -1,0 +1,146 @@
+
+.carousel-box{
+    margin: auto;
+    width: 80%;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+    Box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.carousel-h1{
+    color: #0d9bb8;
+    margin-bottom: .3rem;
+}
+
+.carousel-h2{
+    margin-bottom: 1rem;
+}
+
+.carousel-p{
+    margin-bottom: 2rem;
+    font-weight: bold;
+}
+
+.carousel-content{
+    margin-left: 30px;
+}
+
+.carousel-price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.dot-div{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+.card-box{
+    padding: 2rem;
+    margin: auto;
+    width: 80% ;
+    Box-shadow:0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.cardbox-firstrow{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+
+Link{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.navlinks{
+   margin-left: 10rem;
+   color: tomato;
+}
+
+.nav-itemm{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-itemm:hover{
+    color:#e0e0de;
+    text-decoration: none;
+}
+
+
+.goldenrod{
+  color: goldenrod;
+}
+
+.marginRigtLeft{
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.profile-pic{
+  height: 6rem;
+  width: 6rem;
+  border-radius: 3rem;
+}
+
+.deal-col{  
+  display: flex; 
+  align-items: center;
+  margin-right: 2.5%;
+}
+
+.mid-title{
+    color: gray;
+    margin-top: 1.6rem;
+    margin-bottom: 1.6rem;
+    width: 60%;
+}
+
+.appoint-date{
+    font-weight: bold;
+    margin: 0;
+}
+
+.location-div{
+    color: #0d9bb8;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.marginRL{
+    margin-right: 2rem;
+    margin-left: 2rem;
+}
+
+.link-{
+    text-decoration: none;
+    color: white;
+}
+
+.link-:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+.button-row{
+    width: 50%;
+    margin: auto;
+    margin-top: 4rem;
+    display: flex; 
+    align-items: center;
+}
+
+.nomore{
+    width: 25%;
+    margin: auto;
+    color: 'grey';
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
