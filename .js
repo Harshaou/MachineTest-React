@@ -2,7 +2,7 @@ import React from 'react';
 import { ProgressBar } from 'react-bootstrap';
 import { FaHandshake } from 'react-icons/fa';
 
-const CardBox = ({children, progress, title, name, place, profilePic}) => {
+const CardBox = ({children, progress, title, data}) => {
     return (
         <div className='card-box'>
 
@@ -23,10 +23,10 @@ const CardBox = ({children, progress, title, name, place, profilePic}) => {
 
             <div className='cardbox-firstrow'>
                 <div style={{display: 'flex', alignItems: 'center'}}>
-                    <img className='profile-pic' src={profilePic} alt="pic"/>
+                    <img className='profile-pic' src='https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60' alt="pic"/>
                     <div style={{marginLeft: '15px'}}>
-                        <h4 style={{color: '#0d9bb8'}}>{name}</h4>
-                        <h6> {place} </h6>
+                        <h4 style={{color: '#0d9bb8'}}>Ray Pressley</h4>
+                        <h6>San Francisco</h6>
                     </div>
                 </div>
 
