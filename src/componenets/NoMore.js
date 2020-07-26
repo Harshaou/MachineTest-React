@@ -1,9 +1,12 @@
-import React from 'react';
+import React,{ useState}  from 'react';
+import { Button } from 'react-bootstrap';
 
-const NoMore = () => {
+const NoMore = ({content, value}) => {
+    const [show, setShow] = useState(value)
     return (
-        <div>
-            <h4 className='nomore'>No more services request</h4>
+            <div className='nomore'>
+            {show ? <Button onClick={() => setShow(false)} variant="info" >
+                Show more</Button> : <h3 style={{color: '#0997b5'}}>{content}</h3> }
         </div>
     );
 }

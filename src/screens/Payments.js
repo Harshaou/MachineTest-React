@@ -37,7 +37,7 @@ const Payments = () => {
                 </CardBox>
                 )
             })}
-            <NoMore />
+            <NoMore content='No more payments' value={false}/>
         </div>
     );
 }

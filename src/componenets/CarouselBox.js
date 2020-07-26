@@ -14,6 +14,8 @@ const CarouselBox = () => {
     description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. This session is designed for all levels of trainees.This yoga and pillate training session is designed for all levels of trainees.This session is designed for all levels of trainees ",
     image: 'https://images.unsplash.com/photo-1500904156668-758cff89dcff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60', price: '$90.00'}
 
+    let carouselColor1 = carousel === 1 ? '#cbced1' : '#e6e9ed'
+    let carouselColor2 = carousel === 1 ? '#e6e9ed' : '#cbced1'
 
     const renderItem = () => {
         if(carousel === 1) {
@@ -58,14 +60,15 @@ const CarouselBox = () => {
         <div>
             {renderItem()}
             <div >
-            <div className='dot-div'>
-            <p onClick={() => carousel === 1 ? setCarousel(2) :  setCarousel(1)} style={{margin: 1, color:  'grey'}}>⬤</p>
-            <p onClick={() => carousel === 1 ? setCarousel(2) :  setCarousel(1)} style={{margin: 1, color:  'grey'}}>⬤</p>
+            <div onClick={() => carousel === 1 ? setCarousel(2) :  setCarousel(1)} className='dot-div'>
+            <p style={{margin: 1, color:  carouselColor1}}>⬤</p>
+            <p style={{margin: 1, color:  carouselColor2}}>⬤</p>
             </div>
             </div>
             </div>
     )
 }
+
 
 
 export default CarouselBox;

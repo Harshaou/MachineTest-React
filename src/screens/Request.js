@@ -16,7 +16,8 @@ const Request = () => {
             <CarouselBox />
             {pendingRequest.map(item => {
                 return (
-                    <CardBox key={item.name}
+                    <CardBox 
+                    key={item.name}
                     name={item.name} 
                     place={item.place}
                     profilePic={item.profilePic}
@@ -37,7 +38,7 @@ const Request = () => {
                     </CardBox>
                 )
             })}
-            <NoMore />
+            <NoMore content='No more booking' value={true} />
         </div>
     );
 }

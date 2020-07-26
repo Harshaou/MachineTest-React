@@ -24,7 +24,8 @@ const Services = () => {
                 profilePic={item.profilePic}
                 title='Upcoming services'
                 progress={50}>
-                <MidTitle title='Check in here or scan customer QR code to check in when the service is about to start' />
+                <MidTitle 
+                title='Check in here or scan customer QR code to check in when the service is about to start' />
                 <ServiceBlock
                 placeDetail={item.detailPlace} />
                 <ButtonComponenet
@@ -37,7 +38,7 @@ const Services = () => {
                 </CardBox>
                 )
             })}
-            <NoMore />
+            <NoMore content='No more services' value={false}/>
         </div>
     );
 }

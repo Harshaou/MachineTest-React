@@ -2,7 +2,7 @@ import React from 'react';
 import { GoLocation } from 'react-icons/go';
 import { AiOutlineClockCircle } from 'react-icons/ai';
 
-const ServiceBlock = () => {
+const ServiceBlock = ({placeDetail}) => {
     return (
         <div>
         <div className='cardbox-firstrow'>
@@ -17,7 +17,7 @@ const ServiceBlock = () => {
             <div className='location-div'>
                     <div style={{display: 'flex', alignItems: 'center'}}>
                         <GoLocation size={14} color="#0d9bb8" />
-                        <p style={{marginLeft: 15}} className='appoint-date' >50 Haiwara Tea Garden Dr, San Francisco, CA 94118</p>
+                        <p style={{marginLeft: 15}} className='appoint-date' >{placeDetail}</p>
                     </div>
             </div> 
             </div>

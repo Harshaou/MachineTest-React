@@ -137,10 +137,9 @@ Link{
 }
 
 .nomore{
-    width: 25%;
-    margin: auto;
-    color: 'grey';
-    margin-top: 6rem;
-    margin-bottom: 6rem;
+    display: flex;
+
+    justify-content: center;
+    margin: 5rem
 }
 
