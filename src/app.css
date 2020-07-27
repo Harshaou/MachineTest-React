@@ -63,8 +63,13 @@ Link{
 }
 
 .nav-itemm{
-    color: white;
+    color: #d2d5d9;
     text-decoration: none;
+}
+
+.active-link{
+    color: white;
+    border-bottom: 2px solid white;
 }
 
 .nav-itemm:hover{
@@ -138,8 +143,8 @@ Link{
 
 .nomore{
     display: flex;
-
     justify-content: center;
     margin: 5rem
 }
+
 

@@ -11,7 +11,6 @@ import NoMore from '../componenets/NoMore';
 const Payments = () => {
     let data = useSelector(state => state)
     let pendingPayment = data.filter(item => item.status === 'PAYMENT')
-
     return (
         <div>
             <CarouselBox />

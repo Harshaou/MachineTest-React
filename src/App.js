@@ -13,8 +13,8 @@ const App = () => {
         <NavBar />
         <div className='container'>
             <Route exact path='/' component={Request} />
-            <Route path='/services' component={Services} />
-            <Route path='/payments' component={Payments} />
+            <Route exact path='/services' component={Services} />
+            <Route exact path='/payments' component={Payments} />
         </div>
         </div>
     );

@@ -32,7 +32,7 @@ const CardBox = ({children, progress, title, name, place, profilePic}) => {
 
                 <div className='deal-col'> 
                 <FaHandshake  size={34} color="#0997b5" />
-                <h6 style={{marginLeft: '10px'}}>You two had 12 deals before</h6>
+                <h6 style={{marginLeft: '10px', width: '80%'}}>You and {name} had 12 deals before</h6>
                 </div>      
             </div>
 
